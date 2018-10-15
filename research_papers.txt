@@ -1,0 +1,76 @@
+1. Tools for Automated Analysis of Cybercriminal Markets
+2017
+Describes how to analyse trading posts on markets to identify buy/sell,
+product, currency, etc. using Natural Language Processing.
+
+2. Traveling the silk road: A measurement analysis of a large anonymous online marketplace
+2013
+Analyses The Silk Road over time: number of users, posts, revenue collected by
+operators.
+
+3. Honor among thieves: A common’s analysis of cybercrime economies.
+2013
+Looks at underground markets from a particular economics model's perspective,
+seeing traded resources as a common good that the traders want to preserve
+while also using.
+
+4. Nation-state APT attribution using end-to-end deep neural networks.
+2017
+Achieves relatively high accuracy in attributing APT development to certain 
+major nation states. Acknowledges that nation-states could use techniques
+to throw off this attribution and lead to false attribution to another
+nation state.
+
+5. Measuring the cost of cybercrime. In The economics of information security and privacy
+2012
+Paper which provides an estimate of the cost of cybercrime. Generally it
+posits that we overspend on trying to defend against cybercrime, and that
+instead we should focus on prosecution of cybercriminals in order to be more
+cost-effective.
+
+6. De-anonymizing pro-grammers via code stylometry.
+2015
+Achieves high accuracy in de-anonymizing programmers from code samples of a
+Google Code Jam (~95% accuracy). More skillful programmers are easier to
+de-anonymize, suggesting their own developed style of code.
+Further work suggests looking into attribution of code with multiple authors.
+
+7. When coding style survives compilation: De-anonymizing programmers from executable binaries. 
+2017
+Paper which de-anonymizes programmers using just the compiled binaries they've
+produced. A major feature that allows them to do this are Abstract Syntax
+Trees. They achieve pretty high accuracy (80-90%) but admit that modern 
+cybercriminals would pretty easily be able to obfuscate their code enough for
+this attribution to suffer considerably.
+
+8. A look into 30 years of malware development from a software metrics perspec- tive.
+2016
+Paper which analyses how malware development has evolved over time in terms of
+financial resources, man-hours, number of developers etc. using a lot of
+different metrics (function points and lines of source code included).
+
+9. To catch a ratter: Monitoring the behavior of amateur darkcomet rat operators in the wild. In Security and Privacy
+2017
+Paper which uses honeypots to monitor the behaviour of a bulk of darkcomet rat
+operators. It concludes that a significant proportion of operators are 
+interested in antagonising their victims, often starting as trolling and 
+ending with blackmail. A major goal for most of them is also stealing various
+credentials they can find. Defending against these operators with honeypots
+as a tar-pit defense is probably futile since they spend very little time
+interacting with any one of their victims.
+
+10. Malware lineage in the wild.
+2017
+Produces a method for constructing malware lineage graphs for malware found in
+the wild. Concludes that they did good work.
+
+11. Identifying products in online cybercrime marketplaces: A dataset for fine-grained domain adaptation.
+2017
+Produces a product extractor for online cybercriminal marketplaces and uses it
+to produce a dataset of posts for a number of these marketplaces.
+
+12. CrimeBB: Enabling Cybercrime Research on Underground Forums at Scale
+2018
+Dataset of scraped underground forum information in a database called CrimeBB
+obtained by a crawler named CrimeBot. The database is continually updated
+by CrimeBot's incremental scraping mode.
