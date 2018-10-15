@@ -74,3 +74,27 @@ to produce a dataset of posts for a number of these marketplaces.
 Dataset of scraped underground forum information in a database called CrimeBB
 obtained by a crawler named CrimeBot. The database is continually updated
 by CrimeBot's incremental scraping mode.
+
+13.  Measuring PUP prevalence and pup distribution through pay-per-install services. 
+2016
+Paper analysing Potentially Unwanted Program prevalence, how it is distributed
+, by whom and for what reasons. Part of the motivation for the paper was the
+fact that PUP software is now more prevalent than Malware.
+
+14. Characterizing Eve: Analysing Cybercrime Actors in a Large Underground Forum
+2018
+A paper which profiles key actors from HackForums manually after collecting a 
+list of them from various sources (criminal proceedings, a security firm, etc.
+). It looks into their connections to other members of the community and looks
+for links between key actors as well as their respective areas of expertise.
+Finally, it then attempts to predict, based on this data, which actors might
+in the future evolve into key actors who will engage in cybercriminal activity
+. They conclude that using these predictive features, law enforcement should
+attempt to intervene before the actors get involved in cybercrime.
+
+15. How to learn klingon without a dictionary: Detection and measurement of black keywords used by the underground economy.
+2017
+A new method for detecting and tracking black keywords as they evolve. As of
+writing of the paper, 400k of them had been identified. Black keywords are
+jargon used by the blackhat SEO community in order to optimize pages of the
+underground markets to appear more frequently in search engine results.
